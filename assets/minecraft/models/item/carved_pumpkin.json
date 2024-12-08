@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:block/orientable",
+    "textures": {
+        "front": "minecraft:block/carved_pumpkin",
+        "side": "minecraft:block/pumpkin_side",
+        "top": "minecraft:block/pumpkin_top"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data":1}, "model": "template:item/tophat/tophat"},
+        {"predicate": {"custom_model_data":2}, "model": "template:item/captain/captain"},      
+        {"predicate": {"custom_model_data":3}, "model": "template:item/safari/safari"},      
+        {"predicate": {"custom_model_data":4}, "model": "template:item/adrock/adrock"},      
+        {"predicate": {"custom_model_data":5}, "model": "template:item/americanfootball/americanfootball"},      
+        {"predicate": {"custom_model_data":6}, "model": "template:item/cap/cap"},      
+        {"predicate": {"custom_model_data":7}, "model": "template:item/deerstalker/deerstalker"},      
+        {"predicate": {"custom_model_data":8}, "model": "template:item/fez/fez"},      
+        {"predicate": {"custom_model_data":9}, "model": "template:item/lumberjack/lumberjack"},      
+        {"predicate": {"custom_model_data":10}, "model": "template:item/witch/witch"},      
+        {"predicate": {"custom_model_data":11}, "model": "template:item/hardhat/hardhat"}      
+    ]
+}

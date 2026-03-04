@@ -1,6 +1,6 @@
 {
-    "model": {
-        "type": "minecraft:model",
-        "model": "smackhats:item/lumberjack"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "smackhats:item/lumberjack"
+  }
 }

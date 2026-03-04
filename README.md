@@ -10,7 +10,7 @@
 | gtws_zoo_hat | /trigger gtws_zoo_hat | hermitcraft10 | ![gtws_zoo_hat](renders/gtws_zoo_hat.png)|
 | ibe | /trigger ibe | hermitcraft10 | ![ibe](renders/ibe.png)|
 | jellie_hat | /trigger jellie_hat | hermitcraft10 | ![jellie_hat](renders/jellie_hat.png)|
-| keralis_artic_hat | /trigger keralis_artic_hat | hermitcraft10 | ![keralis_artic_hat](renders/keralis_artic_hat.png)|
+| keralis_arctic_hat | /trigger keralis_arctic_hat | hermitcraft10 | ![keralis_arctic_hat](renders/keralis_arctic_hat.png)|
 | mail_bag | /trigger mail_bag | hermitcraft10 | ![mail_bag](renders/mail_bag.png)|
 | mail_bag_empty | /trigger mail_bag_empty | hermitcraft10 | ![mail_bag_empty](renders/mail_bag_empty.png)|
 | mail_cap | /trigger mail_cap | hermitcraft10 | ![mail_cap](renders/mail_cap.png)|
@@ -46,7 +46,6 @@
 | scarhatpumpkin | /trigger scarhatpumpkin | hermitcraft8 | ![scarhatpumpkin](renders/scarhatpumpkin.png)|
 | basic_crown | /trigger basic_crown | hermitcraft9 | ![basic_crown](renders/basic_crown.png)|
 | bobafetthelmet | /trigger bobafetthelmet | hermitcraft9 | ![bobafetthelmet](renders/bobafetthelmet.png)|
-| dragin_bro | /trigger dragin_bro | hermitcraft9 | ![dragin_bro](renders/dragin_bro.png)|
 | dragon_bro | /trigger dragon_bro | hermitcraft9 | ![dragon_bro](renders/dragon_bro.png)|
 | dunce_hat | /trigger dunce_hat | hermitcraft9 | ![dunce_hat](renders/dunce_hat.png)|
 | ezed_kniezed_helmet | /trigger ezed_kniezed_helmet | hermitcraft9 | ![ezed_kniezed_helmet](renders/ezed_kniezed_helmet.png)|

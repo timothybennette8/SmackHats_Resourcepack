@@ -6,8 +6,8 @@
 		32
 	],
 	"textures": {
-		"0": "hermitcraft10:item/keralis_artic_hat",
-		"particle": "hermitcraft10:item/keralis_artic_hat"
+		"0": "hermitcraft10:item/keralis_arctic_hat",
+		"particle": "hermitcraft10:item/keralis_arctic_hat"
 	},
 	"elements": [
 		{

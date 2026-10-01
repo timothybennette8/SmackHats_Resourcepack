@@ -1,0 +1,46 @@
+name: Package resource pack
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "assets/**"
+      - "pack.mcmeta"
+      - "pack.png"
+      - "VERSION"
+      - ".github/workflows/package.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: package-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build zip
+        run: |
+          version="$(tr -d '[:space:]' < VERSION)"
+          name="SmackHats_RP_${version}.zip"
+          git rm -q --ignore-unmatch -- '*.zip'
+          rm -f ./*.zip
+          zip -r -X -q "$name" pack.mcmeta pack.png assets -x '*.DS_Store'
+          git add "$name"
+          echo "name=$name" >> "$GITHUB_ENV"
+
+      - name: Commit and push
+        run: |
+          if git diff --cached --quiet; then
+            echo "Zip unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898288+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Packaging ${name} [skip ci]"
+          git push

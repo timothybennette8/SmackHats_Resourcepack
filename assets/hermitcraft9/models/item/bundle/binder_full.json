@@ -1,6 +1,0 @@
-{
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "hermitcraft9:item/bundle/binder_full"
-	}
-}

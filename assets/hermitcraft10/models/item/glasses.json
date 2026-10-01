@@ -5,8 +5,8 @@
 		32
 	],
 	"textures": {
-		"0": "smackhats:item/glasses",
-		"particle": "smackhats:item/glasses"
+		"0": "hermitcraft10:item/glasses",
+		"particle": "hermitcraft10:item/glasses"
 	},
 	"elements": [
 		{

@@ -1,13 +1,13 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "hermitcraft8:item/scarhat",
+	"parent": "minecraft:item/carved_pumpkin",
 	"texture_size": [
 		128,
 		128
 	],
 	"textures": {
-		"0": "hermitcraft8:item/scarhatpumpkin",
-		"particle": "hermitcraft8:item/scarhatpumpkin"
+		"0": "hermitcraft8:item/scarhatmini",
+		"particle": "hermitcraft8:item/scarhatmini"
 	},
 	"elements": [
 		{
